@@ -59,6 +59,14 @@ export function Header() {
         <Link href="/forms" rel="nofollow">Forms
         </Link>
       </div>
+      <div className="flex items-center">
+        <Link href="/tasks" rel="nofollow">Tasks
+        </Link>
+      </div>
+      <div className="flex items-center">
+        <Link href="/dashboards" rel="nofollow">Dashboards
+        </Link>
+      </div>
       <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
