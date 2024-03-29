@@ -55,6 +55,10 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
+      <div className="flex items-center">
+        <Link href="/forms" rel="nofollow">Forms
+        </Link>
+      </div>
       <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
